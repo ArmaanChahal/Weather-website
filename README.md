@@ -40,3 +40,6 @@ This project is a Weather Dashboard that displays the current weather and foreca
 - [Bootstrap](https://getbootstrap.com/)
 - [Chart.js](https://www.chartjs.org/)
 - [jQuery](https://jquery.com/)
+
+## Live link
+ <a href="https://armaanchahal.github.io/Weather-website/" target="_blank">open here</a>
