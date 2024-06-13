@@ -17,6 +17,13 @@ $(document).ready(function() {
     $(document).on('click', '.suggestion-item', function() {
         $('#city').val($(this).text());
         $('#suggestions').empty();
+        $('#searchPopup').hide(); // Close search bar after selecting a city
+        fetchCoordinates($(this).text()); // Fetch weather for the selected city
+    });
+    $(document).on('click', function(event) {
+        if (!$(event.target).closest('#searchPopup, #searchIcon').length) {
+            $('#searchPopup').hide();
+        }
     });
 
     $('#getWeather').click(function() {
