@@ -1,5 +1,3 @@
-// script.js
-
 $(function() {
   let lastLat = null, lastLon = null;
   let currentUnits = 'metric';
